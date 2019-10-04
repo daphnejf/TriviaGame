@@ -1,0 +1,35 @@
+.answerchoices {
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 40%;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+}
+
+#answerSection {
+    text-align: center;
+}
+
+#questionSection {
+    text-align: center;
+    font-weight: bold;
+}
+
+#restart {
+    visibility: visible;
+}
+
+body {
+    background-image: url("../images/nba.jpg");
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
