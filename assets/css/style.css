@@ -6,12 +6,12 @@
     text-align: center;
     margin: 10px auto;
     font-size: 20px;
-    background-color: white;
+    background-color: coral;
 }
 
 img {
     max-height: 250px;
-    width: auto;
+    width: 60%;
 }
 
 #answerSection {
@@ -33,3 +33,31 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+h1 {
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    margin: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+h4 {
+    margin: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.trivia {
+    margin: 10px auto;
+    background-color: bisque;
+    border: 2px salmon;
+    height: 600px;
+    width: 66%;
+    text-align: center;
+}
