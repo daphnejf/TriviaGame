@@ -86,16 +86,17 @@ function displayQ() {
  
         $("#questionSection").html("<h2>" + pick.question + "</h2>");
         for (var i = 0; i < pick.choices.length; i++) {
-            var userChoice = $("<div>");
-            userChoice.addClass("answerchoice");
+            var userChoice = $("<button>");
+            userChoice.addClass("answerbutton");
             userChoice.html(pick.choices[i]);
             userChoice.attr("guessv", i);
             $("#answerSection").append(userChoice);
         }
     }
 
-$(".answerchoices").on("click", function () {
+$(document).on("click",".answerbutton", function () {
     userGuess = parseInt($(this).attr("guessv"));
+    console.log(userGuess,pick.answer);
     if (userGuess === pick.answer) {
         stop ();
         correct++;
